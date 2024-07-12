@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Alternate Connection</title>
+</head>
+<body>
+    <header class="bg-white text-black">
+        <nav>
+            <div class="navbar">
+                <div class="flex-1">
+                  <a class="btn btn-ghost text-2xl font-bold">Alternate Connection</a>
+                </div>
+                <div class="flex-none">
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <div class="indicator">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                        <!-- push notification number -->
+                        <span class="badge badge-sm indicator-item">3</span>
+                      </div>
+                    </div>
+                    <div
+                      tabindex="0"
+                      class="card card-compact dropdown-content z-[1] mt-3 w-52 shadow bg-white">
+                      <div class="card-body">
+                        <span class="text-lg font-bold">3 New Notification</span>
+                        <span class="text-info">
+                            <!-- notification detail -->
+                            <ul class="list-decimal text-base ">
+                                <li class="border-t border-gray-400">You got 1million $ investment from Sequa capital</li>
+                                <li class="border-t border-gray-400">8 people applied for the post of web development</li>
+                                <li class="border-t border-gray-400">You have successfully get your business partner</li>
+                            </ul>
+                        </span>
+                        <div class="card-actions">
+                          <button class="btn btn-primary btn-block">View All</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <!-- entrepreneur img -->
+                        <img
+                          alt="entrepreneur img"
+                          src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                      </div>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class="bg-white py-10 space-y-8">
+        <h1 class="text-6xl font-bold text-black text-center">Entrepreneur Dashboard</h1>
+        <section class="grid grid-cols-3 container mx-auto gap-5">
+            <!-- card-1 -->
+            <div class="w-full bg-[#338573] rounded-xl p-5 text-white">
+                <div class="w-full">
+                    <img src="asset/partner-match.jpeg" alt="" class="w-full h-64 rounded-lg">
+                </div>
+                
+                <h1 class="text-5xl font-bold">Find Your Partner</h1>
+                <div class="w-full flex flex-row justify-between gap-3">
+                <p>Every Business Start With a Suitable Partner. So why not you start to find Your Suitable Partner? Start today.</p>
+                <button class="btn btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </button>
+                </div>  
+            </div>
+            <!-- card-1 -->
+            <div class="w-full bg-[#338573] rounded-xl p-5 text-white">
+                <div class="w-full">
+                    <img src="asset/hire-talent.jpg" alt="" class="w-full h-64 rounded-lg">
+                </div>
+                
+                <h1 class="text-5xl font-bold">Hire Talent Now</h1>
+                <div class="w-full flex flex-row justify-between gap-3">
+                <p>Execution of your idea is impossible without some Talented and Energetic person. So Hire Now!</p>
+                <button class="btn btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </button>
+                </div>  
+            </div>
+            <!-- card-1 -->
+            <div class="w-full bg-[#338573] rounded-xl p-5 text-white">
+                <div class="w-full">
+                    <img src="asset/get-investment.jpeg" alt="" class="w-full rounded-lg h-64">
+                </div>
+                
+                <h1 class="text-5xl font-bold">Get Investment</h1>
+                <div class="w-full flex flex-row justify-between gap-3">
+                <p>To create a sudden rise in your business finding is crucial . Your Investor is waiting for you to receive your proposal. Apply Now For Investment!!!</p>
+                <button class="btn btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </button>
+                </div>  
+            </div>
+        </section>
+        <!-- tab -->
+        <section class="bg-white">
+          <div class="container mx-auto flex flex-col justify-center items-center">
+            <h1 class="text-5xl">Your Previous Post For Searching</h1>
+            <div role="tablist" class="tabs tabs-lifted">
+              <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Business Partner(3)" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full">
+                <button class="btn btn-ghost bg-green-200 text-black">Candidate Sort with AI</button>
+                <button class="btn btn-ghost bg-green-200 text-black">Create Another Post</button>
+                <!-- Your business partner Post detail -->
+                 <ul class="grid grid-cols-6 w-full gap-2">
+                  <!-- post-1 -->
+                  <li class="text-base font-bold border-r-2 border-r-gray-400">
+                    Looking For CTO
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                      <li>Applicant-4</li>
+                    </ul>
+                  </li>
+                  <!-- post-3 -->
+                  <li class="text-base font-bold border-r-gray-400 border-r-2">
+                    Looking For CMO
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                      <li>Applicant-4</li>
+                      <li>Applicant-5</li>
+                    </ul>
+                  </li>
+                  <!-- post-3 -->
+                  <li class="text-base font-bold border-r-gray-400 border-r-2">
+                    Looking For COO
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                    </ul>
+                  </li>
+                 </ul>
+              </div>
+            
+              <input
+                type="radio"
+                name="my_tabs_2"
+                role="tab"
+                class="tab"
+                aria-label="Hiring Employee(3)"
+                checked="checked" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full">
+                <button class="btn btn-ghost bg-green-200 text-black">Candidate Sort with AI</button>
+                <button class="btn btn-ghost bg-green-200 text-black">Create Another Post</button>
+                <!-- Your recruitment Post detail -->
+                <ul class="grid grid-cols-6 w-full gap-2">
+                  <!-- post-1 -->
+                  <li class="text-base font-bold border-r-2 border-r-gray-400">
+                    Looking For Junior Executive
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                      <li>Applicant-4</li>
+                    </ul>
+                  </li>
+                  <!-- post-3 -->
+                  <li class="text-base font-bold border-r-gray-400 border-r-2">
+                    Looking For Web Developer
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                      <li>Applicant-4</li>
+                      <li>Applicant-5</li>
+                    </ul>
+                  </li>
+                  <!-- post-3 -->
+                  <li class="text-base font-bold border-r-gray-400 border-r-2">
+                    Looking For SalesMan
+                    <!-- Applicant CV list -->
+                    <ul class="font-normal">
+                      <li>Applicant-1</li>
+                      <li>Applicant-2</li>
+                      <li>Applicant-3</li>
+                    </ul>
+                  </li>
+                 </ul>
+              </div>
+            
+              <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Investment Proposal" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full">
+                <button class="btn btn-ghost bg-green-200 text-black">Create Another Proposal</button>
+                <!-- Your Funding detail -->
+                <ul class="grid grid-rows-6 w-full gap-2">
+                  <!-- proposal-1 -->
+                  <li class="text-base font-bold border-r-2 border-r-gray-400">
+                    Proposal-1
+                    <!-- Proposal Status -->
+                    <ul class="steps font-normal">
+                      <li class="step step-primary">Preliminary Review</li>
+                      <li class="step step-primary">Proposal sent to Investor</li>
+                      <li class="step">Investment Approval</li>
+                      <li class="step">You Get the Fund</li>
+                    </ul>
+                  </li>
+                  <!-- proposal-2 -->
+                  <li class="text-base font-bold border-r-2 border-r-gray-400">
+                    Proposal-2
+                    <!-- Proposal Status -->
+                    <ul class="steps font-normal">
+                      <li class="step step-primary">Preliminary Review</li>
+                      <li class="step step-primary">Proposal sent to Investor</li>
+                      <li class="step">Investment Approval</li>
+                      <li class="step">You Get the Fund</li>
+                    </ul>
+                  </li>
+                  <!-- proposal-3 -->
+                  <li class="text-base font-bold border-r-2 border-r-gray-400">
+                    Proposal-3
+                    <!-- Proposal Status -->
+                    <ul class="steps font-normal">
+                      <li class="step step-primary">Preliminary Review</li>
+                      <li class="step step-primary">Proposal sent to Investor</li>
+                      <li class="step">Investment Approval</li>
+                      <li class="step">You Get the Fund</li>
+                    </ul>
+                  </li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br>
+        <!-- tab -->
+        <section class="bg-white">
+          <div class="container mx-auto flex flex-col justify-center items-center">
+            <h1 class="text-5xl">Create Post or Proposal for </h1>
+            <div role="tablist" class="tabs tabs-lifted">
+              <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Business Partner" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full space-y-3">
+                <!-- Your business partner Post Creator -->
+                <h3>Role</h3>
+                <input type="text" placeholder="Role" class="input input-bordered w-full" />
+                <h3>Benefits</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Benefits"></textarea>
+                <h3>Core Business Idea and Overview</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Core Business Idea and Overview"></textarea>
+                <h3>Business Overview With Pitch Deck (Optional)</h3>
+                <input type="file" class="file-input file-input-bordered w-full max-w-xs" />
+                <button class="btn btn-ghost bg-green-200 text-black">Create Post With AI</button><br>
+                <button class="btn btn-ghost bg-green-200 text-black">Approved and Post</button>
+              </div>
+            
+              <input
+                type="radio"
+                name="my_tabs_2"
+                role="tab"
+                class="tab"
+                aria-label="Hiring Employee"
+                checked="checked" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full space-y-3">
+                <!-- Your Employee Hunting Post Creator -->
+                <h3>Role</h3>
+                <input type="text" placeholder="Role" class="input input-bordered w-full" />
+                <h3>Salary & Benefits</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Salary and Benefits"></textarea>
+                <h3>Required Skills</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Required Skill"></textarea>
+                <h3>Responsibility</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Responsibility"></textarea>
+                <button class="btn btn-ghost bg-green-200 text-black">Create Post With AI</button><br>
+                <button class="btn btn-ghost bg-green-200 text-black">Approved and Post</button>
+              </div>
+            
+              <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Investment Proposal" />
+              <div role="tabpanel" class="tab-content border-base-300 rounded-box p-6 w-full space-y-3">
+                <!-- Your business Proposal Post Creator -->
+                <h3>Is Business Running?</h3>
+                <div class="form-control">
+                  <label class="label cursor-pointer">
+                    <span class="label-text">No</span>
+                    <input type="radio" name="radio-10" class="radio checked:bg-red-500" checked="checked" />
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label class="label cursor-pointer">
+                    <span class="label-text">Yes</span>
+                    <input type="radio" name="radio-10" class="radio checked:bg-blue-500" checked="checked" />
+                  </label>
+                </div>
+                <h3>Asking Amount</h3>
+                <input type="text" placeholder="10 lakh" class="input input-bordered w-full" />
+                <h3>Share(in %)</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="On 10% equity"></textarea>
+                <h3>Core Business Idea and Overview</h3>
+                <textarea class="textarea textarea-bordered w-full" placeholder="Core Business Idea and Overview"></textarea>
+                <h3>Business Overview With Pitch Deck (Optional)</h3>
+                <input type="file" class="file-input file-input-bordered w-full max-w-xs" />
+                <button class="btn btn-ghost bg-green-200 text-black">Create Proposal With AI</button><br>
+                <button class="btn btn-ghost bg-green-200 text-black">Approved and Send</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+</body>
+</html>
